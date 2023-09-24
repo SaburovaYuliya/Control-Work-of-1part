@@ -12,7 +12,7 @@
 
 void NewArray(string[] array, int len)
 {
-    for (int i = 0; i < array.Length; i++)
+   for (int i = 0; i < array.Length; i++)
    if (len>=array[i].Length) 
    Console.Write($"{string.Join("", array[i], ", ")}");
 }
